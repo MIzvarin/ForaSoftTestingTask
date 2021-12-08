@@ -7,20 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D9B841157161812D4C106F0 /* Pods_ForaSoftTestingTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C59B8EFD975F6A45C4660F6 /* Pods_ForaSoftTestingTask.framework */; };
+		FA19F6402761416600D0FD32 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19F63F2761416600D0FD32 /* StorageManager.swift */; };
+		FA19F6432761418400D0FD32 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19F6422761418400D0FD32 /* ImageManager.swift */; };
+		FA19F647276141D700D0FD32 /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19F646276141D700D0FD32 /* URLRequestBuilder.swift */; };
+		FA19F649276141ED00D0FD32 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19F648276141ED00D0FD32 /* NetworkManager.swift */; };
+		FA19F64C2761424100D0FD32 /* AlbumsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19F64B2761424100D0FD32 /* AlbumsProvider.swift */; };
+		FA19F64F2761427100D0FD32 /* Albums.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19F64E2761427100D0FD32 /* Albums.swift */; };
+		FA19F6522761429A00D0FD32 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19F6512761429A00D0FD32 /* Extensions.swift */; };
+		FA19F655276142C600D0FD32 /* AlbumsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19F654276142C600D0FD32 /* AlbumsCollectionViewController.swift */; };
+		FA19F657276142E600D0FD32 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19F656276142E600D0FD32 /* AlbumCollectionViewCell.swift */; };
+		FA19F65A2761431900D0FD32 /* SearchHistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19F6592761431900D0FD32 /* SearchHistoryTableViewController.swift */; };
+		FA19F65D2761434600D0FD32 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19F65C2761434600D0FD32 /* TabBarController.swift */; };
+		FA19F6602761437000D0FD32 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA19F65F2761437000D0FD32 /* AlbumDetailViewController.swift */; };
 		FA8E06AD2761404C00FA7CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E06AC2761404C00FA7CE5 /* AppDelegate.swift */; };
 		FA8E06AF2761404C00FA7CE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E06AE2761404C00FA7CE5 /* SceneDelegate.swift */; };
-		FA8E06B12761404C00FA7CE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E06B02761404C00FA7CE5 /* ViewController.swift */; };
-		FA8E06B42761404C00FA7CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8E06B22761404C00FA7CE5 /* Main.storyboard */; };
 		FA8E06B62761404C00FA7CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8E06B52761404C00FA7CE5 /* Assets.xcassets */; };
 		FA8E06B92761404C00FA7CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8E06B72761404C00FA7CE5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C59B8EFD975F6A45C4660F6 /* Pods_ForaSoftTestingTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForaSoftTestingTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC2DDEC16CCD1C5035586AC /* Pods-ForaSoftTestingTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForaSoftTestingTask.release.xcconfig"; path = "Target Support Files/Pods-ForaSoftTestingTask/Pods-ForaSoftTestingTask.release.xcconfig"; sourceTree = "<group>"; };
+		5882524B8748B8BED3A0BE6C /* Pods-ForaSoftTestingTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForaSoftTestingTask.debug.xcconfig"; path = "Target Support Files/Pods-ForaSoftTestingTask/Pods-ForaSoftTestingTask.debug.xcconfig"; sourceTree = "<group>"; };
+		FA19F63F2761416600D0FD32 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		FA19F6422761418400D0FD32 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		FA19F646276141D700D0FD32 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequestBuilder.swift; sourceTree = "<group>"; };
+		FA19F648276141ED00D0FD32 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FA19F64B2761424100D0FD32 /* AlbumsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsProvider.swift; sourceTree = "<group>"; };
+		FA19F64E2761427100D0FD32 /* Albums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Albums.swift; sourceTree = "<group>"; };
+		FA19F6512761429A00D0FD32 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FA19F654276142C600D0FD32 /* AlbumsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsCollectionViewController.swift; sourceTree = "<group>"; };
+		FA19F656276142E600D0FD32 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA19F6592761431900D0FD32 /* SearchHistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHistoryTableViewController.swift; sourceTree = "<group>"; };
+		FA19F65C2761434600D0FD32 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FA19F65F2761437000D0FD32 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailViewController.swift; sourceTree = "<group>"; };
 		FA8E06A92761404C00FA7CE5 /* ForaSoftTestingTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForaSoftTestingTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8E06AC2761404C00FA7CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA8E06AE2761404C00FA7CE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FA8E06B02761404C00FA7CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FA8E06B32761404C00FA7CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA8E06B52761404C00FA7CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA8E06B82761404C00FA7CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA8E06BA2761404C00FA7CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,17 +55,126 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D9B841157161812D4C106F0 /* Pods_ForaSoftTestingTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E1A450BACD119962DA53CD62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C59B8EFD975F6A45C4660F6 /* Pods_ForaSoftTestingTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2EE7C883862DFBC70F07776 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5882524B8748B8BED3A0BE6C /* Pods-ForaSoftTestingTask.debug.xcconfig */,
+				0CC2DDEC16CCD1C5035586AC /* Pods-ForaSoftTestingTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA19F63B276140FB00D0FD32 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				FA8E06BA2761404C00FA7CE5 /* Info.plist */,
+				FA8E06B72761404C00FA7CE5 /* LaunchScreen.storyboard */,
+				FA8E06B52761404C00FA7CE5 /* Assets.xcassets */,
+				FA8E06AE2761404C00FA7CE5 /* SceneDelegate.swift */,
+				FA8E06AC2761404C00FA7CE5 /* AppDelegate.swift */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+		FA19F63D2761414500D0FD32 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FA19F63F2761416600D0FD32 /* StorageManager.swift */,
+				FA19F6422761418400D0FD32 /* ImageManager.swift */,
+				FA19F6442761419800D0FD32 /* Network */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FA19F6442761419800D0FD32 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				FA19F64A2761420600D0FD32 /* Providers */,
+				FA19F646276141D700D0FD32 /* URLRequestBuilder.swift */,
+				FA19F648276141ED00D0FD32 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FA19F64A2761420600D0FD32 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				FA19F64B2761424100D0FD32 /* AlbumsProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		FA19F64D2761425000D0FD32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA19F64E2761427100D0FD32 /* Albums.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA19F6502761427F00D0FD32 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA19F6512761429A00D0FD32 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA19F653276142A500D0FD32 /* AlbumsCollectionController */ = {
+			isa = PBXGroup;
+			children = (
+				FA19F654276142C600D0FD32 /* AlbumsCollectionViewController.swift */,
+				FA19F656276142E600D0FD32 /* AlbumCollectionViewCell.swift */,
+			);
+			path = AlbumsCollectionController;
+			sourceTree = "<group>";
+		};
+		FA19F658276142F700D0FD32 /* SearchHistoryTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA19F6592761431900D0FD32 /* SearchHistoryTableViewController.swift */,
+			);
+			path = SearchHistoryTableViewController;
+			sourceTree = "<group>";
+		};
+		FA19F65B2761433200D0FD32 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				FA19F65C2761434600D0FD32 /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		FA19F65E2761435100D0FD32 /* AlbumDetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FA19F65F2761437000D0FD32 /* AlbumDetailViewController.swift */,
+			);
+			path = AlbumDetailsViewController;
+			sourceTree = "<group>";
+		};
 		FA8E06A02761404C00FA7CE5 = {
 			isa = PBXGroup;
 			children = (
 				FA8E06AB2761404C00FA7CE5 /* ForaSoftTestingTask */,
 				FA8E06AA2761404C00FA7CE5 /* Products */,
+				E2EE7C883862DFBC70F07776 /* Pods */,
+				E1A450BACD119962DA53CD62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +189,14 @@
 		FA8E06AB2761404C00FA7CE5 /* ForaSoftTestingTask */ = {
 			isa = PBXGroup;
 			children = (
-				FA8E06AC2761404C00FA7CE5 /* AppDelegate.swift */,
-				FA8E06AE2761404C00FA7CE5 /* SceneDelegate.swift */,
-				FA8E06B02761404C00FA7CE5 /* ViewController.swift */,
-				FA8E06B22761404C00FA7CE5 /* Main.storyboard */,
-				FA8E06B52761404C00FA7CE5 /* Assets.xcassets */,
-				FA8E06B72761404C00FA7CE5 /* LaunchScreen.storyboard */,
-				FA8E06BA2761404C00FA7CE5 /* Info.plist */,
+				FA19F65E2761435100D0FD32 /* AlbumDetailsViewController */,
+				FA19F65B2761433200D0FD32 /* TabBarController */,
+				FA19F658276142F700D0FD32 /* SearchHistoryTableViewController */,
+				FA19F653276142A500D0FD32 /* AlbumsCollectionController */,
+				FA19F6502761427F00D0FD32 /* Extensions */,
+				FA19F64D2761425000D0FD32 /* Model */,
+				FA19F63D2761414500D0FD32 /* Managers */,
+				FA19F63B276140FB00D0FD32 /* Support files */,
 			);
 			path = ForaSoftTestingTask;
 			sourceTree = "<group>";
@@ -74,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA8E06BD2761404C00FA7CE5 /* Build configuration list for PBXNativeTarget "ForaSoftTestingTask" */;
 			buildPhases = (
+				06DA0FFEA5E2AE8168206EFD /* [CP] Check Pods Manifest.lock */,
 				FA8E06A52761404C00FA7CE5 /* Sources */,
 				FA8E06A62761404C00FA7CE5 /* Frameworks */,
 				FA8E06A72761404C00FA7CE5 /* Resources */,
+				FD62FC7139B2AC76A0FBBC84 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +263,78 @@
 			files = (
 				FA8E06B92761404C00FA7CE5 /* LaunchScreen.storyboard in Resources */,
 				FA8E06B62761404C00FA7CE5 /* Assets.xcassets in Resources */,
-				FA8E06B42761404C00FA7CE5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06DA0FFEA5E2AE8168206EFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForaSoftTestingTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD62FC7139B2AC76A0FBBC84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForaSoftTestingTask/Pods-ForaSoftTestingTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForaSoftTestingTask/Pods-ForaSoftTestingTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForaSoftTestingTask/Pods-ForaSoftTestingTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FA8E06A52761404C00FA7CE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA8E06B12761404C00FA7CE5 /* ViewController.swift in Sources */,
+				FA19F65A2761431900D0FD32 /* SearchHistoryTableViewController.swift in Sources */,
+				FA19F65D2761434600D0FD32 /* TabBarController.swift in Sources */,
+				FA19F649276141ED00D0FD32 /* NetworkManager.swift in Sources */,
+				FA19F6522761429A00D0FD32 /* Extensions.swift in Sources */,
+				FA19F655276142C600D0FD32 /* AlbumsCollectionViewController.swift in Sources */,
+				FA19F6402761416600D0FD32 /* StorageManager.swift in Sources */,
+				FA19F647276141D700D0FD32 /* URLRequestBuilder.swift in Sources */,
+				FA19F64F2761427100D0FD32 /* Albums.swift in Sources */,
 				FA8E06AD2761404C00FA7CE5 /* AppDelegate.swift in Sources */,
 				FA8E06AF2761404C00FA7CE5 /* SceneDelegate.swift in Sources */,
+				FA19F64C2761424100D0FD32 /* AlbumsProvider.swift in Sources */,
+				FA19F6602761437000D0FD32 /* AlbumDetailViewController.swift in Sources */,
+				FA19F657276142E600D0FD32 /* AlbumCollectionViewCell.swift in Sources */,
+				FA19F6432761418400D0FD32 /* ImageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FA8E06B22761404C00FA7CE5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FA8E06B32761404C00FA7CE5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FA8E06B72761404C00FA7CE5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +464,7 @@
 		};
 		FA8E06BE2761404C00FA7CE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5882524B8748B8BED3A0BE6C /* Pods-ForaSoftTestingTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,10 +472,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64HW2Z4RAK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ForaSoftTestingTask/Info.plist;
+				INFOPLIST_FILE = "ForaSoftTestingTask/Support files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +492,7 @@
 		};
 		FA8E06BF2761404C00FA7CE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CC2DDEC16CCD1C5035586AC /* Pods-ForaSoftTestingTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,10 +500,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 64HW2Z4RAK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ForaSoftTestingTask/Info.plist;
+				INFOPLIST_FILE = "ForaSoftTestingTask/Support files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
